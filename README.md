@@ -18,7 +18,7 @@ You can override the default keybinding in your `.vimrc` or `init.vim`:
 let g:minimal_look_no_mappings = v:true
 
 " If you prefer `gM` instead of `<Leader>M`:
-nmap gM <Plug>ToggleMinimalLook
+nmap <silent> gM <Plug>ToggleMinimalLook
 ```
 
 Or in your `init.lua`:
@@ -26,7 +26,7 @@ Or in your `init.lua`:
 ```lua
 vim.g.minimal_look_no_mappings = true
 
-vim.keymap.set('n', 'gM', '<Plug>ToggleMinimalLook')
+vim.keymap.set('n', 'gM', '<Plug>ToggleMinimalLook', { silent = true })
 ```
 
 ## Installation

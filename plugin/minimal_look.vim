@@ -63,5 +63,5 @@ endfunction
 nnoremap <Plug>ToggleMinimalLook :call <SID>toggle_minimal_look()<CR>
 
 if !exists("g:minimal_look_no_mappings") || !g:minimal_look_no_mappings
-   nmap <Leader>M <Plug>ToggleMinimalLook
+   nmap <silent> <Leader>M <Plug>ToggleMinimalLook
 endif
