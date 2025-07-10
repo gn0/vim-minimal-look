@@ -10,6 +10,8 @@ This plugin lets you toggle the visibility of the following UI elements:
 - relative line numbers ([`relativenumber`](https://neovim.io/doc/user/options.html#'relativenumber'))
 - empty line indicator ([`fillchars`](https://neovim.io/doc/user/options.html#'fillchars'))
 
+![Minimal look, off and on](./screenshot.png)
+
 By default, the plugin binds `<Leader>M`.
 When you activate it, it remembers your settings, so your customizations will be restored after deactivation.
 You can override the default keybinding in your `.vimrc` or `init.vim`:
