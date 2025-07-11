@@ -1,6 +1,6 @@
 " minimal_look.vim - Toggle whether status line, etc., are displayed.
 " Author: Gábor Nyéki
-" Version: 1.0
+" Version: 1.1
 
 if exists("g:loaded_minimal_look") || &cp
     finish
