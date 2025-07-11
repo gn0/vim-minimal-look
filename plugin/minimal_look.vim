@@ -54,9 +54,8 @@ function! s:toggle_minimal_look()
         if s:original["laststatus"] > 0
             exec "set laststatus=" . s:original["laststatus"]
         endif
-        if !empty(s:original["fillchars"])
-            let &fillchars = s:original["fillchars"]
-        endif
+
+        let &fillchars = s:original["fillchars"]
     endif
 endfunction
 
